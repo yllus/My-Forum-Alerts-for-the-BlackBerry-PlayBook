@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: #f5f5f5; 
+}
+
+body {
+	background: #f5f5f5 url(/images/bg_body.gif) left top repeat-x;
+	font: 14px "Myriad Pro", Helvetica;
+	color: #979595;
+	text-align: left;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 1024px;
+}
+
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+	line-height: 20px;
+	padding:0 0 20 0;
+}
+
+h1 {
+    font-family: "Myriad Pro", Helvetica;
+    font-size: 26px;
+    color: #808080;
+}
+
+h2 {
+    font-family: "Myriad Pro", Helvetica;
+    font-size: 22px;
+    color: #808080;
+}
+
+h3 {
+    font-family: "Myriad Pro", Helvetica;
+    font-size: 18px;
+    color: #808080;
+}
+
+/* Start: TITLE CSS */
+
+.title {
+	z-index: 100; 
+	position: fixed; 
+	top: 0; 
+	width: 1024px; 
+	height: 15px; 
+	color: #fffaf0; 
+	padding: 4px 4px 4px 4px;
+}
+/* End: TITLE CSS */
+
+/* Start: MAIN CSS */
+.main {
+    width: 900px;
+    height: 410px;
+    padding-top: 25px;
+}
+
+.main_left {
+    float: left;
+    width: 650px;  
+    font: normal normal normal 20px/normal 'Myriad Pro', Helvetica;
+    color: #000000;
+}
+
+.main_right {
+    float: right; 
+    width: 225px; 
+    text-align: left; 
+    font: normal normal bold 20px/normal 'Myriad Pro', Helvetica; 
+    color: #000000;
+}
+
+.main_left_padder {
+	margin-top: 10px;
+    padding: 25px 20px 25px 20px; 
+    background-image: url(/images/page-corner.gif); 
+    background-repeat: no-repeat; 
+    background-position: top right; 
+    background-color: #ffffff;
+    width: 850px;
+}
+
+.main_left_stepname {
+    float: left; 
+    width: 40px; 
+    font-size: 32px; 
+    font-weight: bold;
+    padding-right: 25px;
+    vertical-align: middle;
+    text-align: left; 
+    color: #5F9EA0;
+}
+
+.main_left_stepcontent {
+   float: left;
+   width: 535px;
+}
+
+.main_right_item {
+   padding-top: 20px;
+   width: 225px;
+   color: #979595;
+   font-size: 12px;
+   font-weight: normal;
+}
+
+.main_right_item A {
+   text-decoration: none;
+   color: #696969;
+   font-size: 12px;
+   font-weight: bold;
+}
+
+.main_right_more {
+   margin-top: 25px;
+}
+
+.main_right_more A {
+   text-decoration: none;
+   color: #696969;
+   font-size: 12px;
+   font-weight: bold;
+}
+/* End: MAIN CSS */
+
+.bb-bb7-input-hires  {
+    background: #F1F1F1;
+    border: 1px solid #c3c3c3;
+    border-bottom-left-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+    color: #333;
+    font: normal normal normal 20px/normal 'Myriad Pro', Helvetica;
+    padding: 2px;
+}
+
+.dropdown {
+    background: #F1F1F1;
+    border: 1px solid #c3c3c3;
+    border-bottom-left-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+    color: #333333;
+    font: normal normal normal 18px/normal 'Myriad Pro', Helvetica;
+    padding: 2px;
+}
+
+
+.button {
+    color: #333;
+    font: normal normal normal 18px/normal 'Myriad Pro', Helvetica;
+    margin-top: 10px;
+    padding: 3px;
+}
+
+.smalltext {
+    color: #000000;
+    font: normal normal normal 14px/normal 'Myriad Pro', Helvetica; 
+}
+
+/* Start: BBUI OVERRIDES */
+.bb-bb7-pill-button-hires {
+	height: 50px;
+	line-height: 54px;
+}
+
+.bb-bb7-pill-button-highlight{
+	float: left;
+	border-width:1px;
+	border-color:#437374;
+	border-style: solid;
+	color: white;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align: middle;
+	padding-left: 0px;
+	padding-right: 0px;
+	display: table-cell;
+	box-shadow:2px 2px 2px #DCDCDC;
+	background-clip: padding-box;	
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#5F9EA0), to(#4F8385));	
+}
+
+.bb-bb7-dropdown {
+	border-width:1px;
+	border-color:#BCBEC2;
+	border-style: solid;
+	color: black;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align: middle;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: table-cell;
+	border-radius:5px;
+	box-shadow:1px 1px 1px #DCDCDC;
+	background-clip: padding-box;	
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#F9F9F9), to(#D0D2D4));
+}
+
+.bb-bb7-dropdown-highlight {
+	border-width:1px;
+	border-color:#437374;
+	border-style: solid;
+	color: White;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align: middle;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: table-cell;
+	border-radius:5px;
+	box-shadow:2px 2px 2px #DCDCDC;
+	background-clip: padding-box;	
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#5F9EA0), to(#4F8385));		
+}
+
+.bb-bb7-button-highlight{
+	border-width:1px;
+	border-color:#437374;
+	border-style: solid;
+	color: White;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align: middle;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: table-cell;
+	border-radius:5px;
+	box-shadow:2px 2px 2px #DCDCDC;
+	background-clip: padding-box;	
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#5F9EA0), to(#4F8385));			
+}
+
+.ripple-dropdown-dialog .backgroundHighlight:hover {
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#5F9EA0), to(#4F8385));
+}
+
+
+.ripple-dropdown-dialog .backgroundSelected{
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#5F9EA0), to(#4F8385));
+}
+/* End: BBUI OVERRIDES */

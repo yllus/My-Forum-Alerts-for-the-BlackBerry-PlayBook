@@ -1,0 +1,50 @@
+<div style="width: 850px; height: 100px;">
+	<div class="main_left_stepname">#1</div>
+	<div class="main_left_stepcontent">
+		Choose the forum you wish to monitor: 
+		<div style="height: 10px; width: 1px;"></div>
+		<select id="forum_id" name="forum_id" class="dropdown" style="width: 450px;" onchange="display_subcategories();">
+			<option value="0">Select a forum...</option>
+			<option value="1">AnandTech Forums</option>
+			<option value="8">Android Community Forums</option>
+			<option value="2">Canon Digital Photography Forums</option>
+			<option value="10">GottaDeal.com Forums</option>
+			<option value="6">Harmony Central Forums</option>
+			<option value="7">iLounge Forums</option>
+			<option value="4">MoneySavingExpert.com Forums</option>
+			<option value="5">The Photo Forum</option>
+			<option value="9">The Purse Forum</option>
+			<option value="3">Watchuseek</option>
+		</select>
+	</div>
+	<input type="hidden" name="list_categories" id="list_categories" value="" />
+</div>
+
+<div style="width: 850px; min-height: 75px; margin-top: 25px;">
+	<div class="main_left_stepname" style="height: 50px; padding-top: 2px;">#2</div>
+	<div class="main_left_stepcontent" style="min-height: 85px;">
+		Choose the subcategories to monitor:
+		<br />
+		<div id="div_subcategory" style="color: #909090; width: 650px; padding-top: 10px;">Select a forum to proceed.</div>
+	</div>
+</div>
+
+<div style="clear: both;"></div>
+
+<div style="width: 850px; height: 100px; margin-top: 45px;">
+	<div class="main_left_stepname" style="height: 50px; padding-top: 2px;">#3</div>
+	<div class="main_left_stepcontent" style="height: 85px;">
+		Give us a list of keywords we should find in the thread title:
+		<br>
+		<input id="step2_keywords" name="step2_keywords" type="text" class="bb-bb7-input bb-bb7-input-hires" style="width: 525px;" />
+		<br>
+		<span id="step2_response" class="smalltext" style="color: rgb(0, 0, 0); ">Separate each keyword with a space. To join 2 words together as an exact phrase, use double quotes: "rolex submariner".</span>
+	</div>
+</div>
+
+<div style="width: 650px; height: 60px; margin-top: 25px;">
+	<div class="main_left_stepname" style="height: 1px;"></div>
+	<div class="main_left_stepcontent" style="height: 85px;">
+		<div data-bb-type="button" onclick="add_alert();" id="plain">Add Alert</div>
+	</div>
+</div>
